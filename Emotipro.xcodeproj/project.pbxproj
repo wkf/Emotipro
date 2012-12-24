@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BECBAF4D16890AA900DDB78B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BECBAF4C16890AA900DDB78B /* Cocoa.framework */; };
+		BECBAF5716890AA900DDB78B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BECBAF5516890AA900DDB78B /* InfoPlist.strings */; };
+		BECBAF5916890AA900DDB78B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BECBAF5816890AA900DDB78B /* main.m */; };
+		BECBAF5D16890AA900DDB78B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BECBAF5B16890AA900DDB78B /* Credits.rtf */; };
+		BECBAF6016890AA900DDB78B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BECBAF5F16890AA900DDB78B /* AppDelegate.m */; };
+		BECBAF6316890AA900DDB78B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BECBAF6116890AA900DDB78B /* MainMenu.xib */; };
+		BECBAF6B16890AA900DDB78B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BECBAF6A16890AA900DDB78B /* SenTestingKit.framework */; };
+		BECBAF6C16890AA900DDB78B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BECBAF4C16890AA900DDB78B /* Cocoa.framework */; };
+		BECBAF7416890AA900DDB78B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BECBAF7216890AA900DDB78B /* InfoPlist.strings */; };
+		BECBAF7716890AA900DDB78B /* EmotiproTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BECBAF7616890AA900DDB78B /* EmotiproTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BECBAF6D16890AA900DDB78B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BECBAF3F16890AA900DDB78B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BECBAF4716890AA900DDB78B;
+			remoteInfo = Emotipro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BECBAF4816890AA900DDB78B /* Emotipro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emotipro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BECBAF4C16890AA900DDB78B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BECBAF4F16890AA900DDB78B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BECBAF5016890AA900DDB78B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BECBAF5116890AA900DDB78B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BECBAF5416890AA900DDB78B /* Emotipro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Emotipro-Info.plist"; sourceTree = "<group>"; };
+		BECBAF5616890AA900DDB78B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BECBAF5816890AA900DDB78B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BECBAF5A16890AA900DDB78B /* Emotipro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Emotipro-Prefix.pch"; sourceTree = "<group>"; };
+		BECBAF5C16890AA900DDB78B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		BECBAF5E16890AA900DDB78B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BECBAF5F16890AA900DDB78B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BECBAF6216890AA900DDB78B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BECBAF6916890AA900DDB78B /* EmotiproTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmotiproTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BECBAF6A16890AA900DDB78B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BECBAF7116890AA900DDB78B /* EmotiproTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EmotiproTests-Info.plist"; sourceTree = "<group>"; };
+		BECBAF7316890AA900DDB78B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BECBAF7516890AA900DDB78B /* EmotiproTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmotiproTests.h; sourceTree = "<group>"; };
+		BECBAF7616890AA900DDB78B /* EmotiproTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmotiproTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BECBAF4516890AA900DDB78B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BECBAF4D16890AA900DDB78B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BECBAF6516890AA900DDB78B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BECBAF6B16890AA900DDB78B /* SenTestingKit.framework in Frameworks */,
+				BECBAF6C16890AA900DDB78B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BECBAF3D16890AA900DDB78B = {
+			isa = PBXGroup;
+			children = (
+				BECBAF5216890AA900DDB78B /* Emotipro */,
+				BECBAF6F16890AA900DDB78B /* EmotiproTests */,
+				BECBAF4B16890AA900DDB78B /* Frameworks */,
+				BECBAF4916890AA900DDB78B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BECBAF4916890AA900DDB78B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BECBAF4816890AA900DDB78B /* Emotipro.app */,
+				BECBAF6916890AA900DDB78B /* EmotiproTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BECBAF4B16890AA900DDB78B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BECBAF4C16890AA900DDB78B /* Cocoa.framework */,
+				BECBAF6A16890AA900DDB78B /* SenTestingKit.framework */,
+				BECBAF4E16890AA900DDB78B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BECBAF4E16890AA900DDB78B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BECBAF4F16890AA900DDB78B /* AppKit.framework */,
+				BECBAF5016890AA900DDB78B /* CoreData.framework */,
+				BECBAF5116890AA900DDB78B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		BECBAF5216890AA900DDB78B /* Emotipro */ = {
+			isa = PBXGroup;
+			children = (
+				BECBAF5E16890AA900DDB78B /* AppDelegate.h */,
+				BECBAF5F16890AA900DDB78B /* AppDelegate.m */,
+				BECBAF6116890AA900DDB78B /* MainMenu.xib */,
+				BECBAF5316890AA900DDB78B /* Supporting Files */,
+			);
+			path = Emotipro;
+			sourceTree = "<group>";
+		};
+		BECBAF5316890AA900DDB78B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BECBAF5416890AA900DDB78B /* Emotipro-Info.plist */,
+				BECBAF5516890AA900DDB78B /* InfoPlist.strings */,
+				BECBAF5816890AA900DDB78B /* main.m */,
+				BECBAF5A16890AA900DDB78B /* Emotipro-Prefix.pch */,
+				BECBAF5B16890AA900DDB78B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BECBAF6F16890AA900DDB78B /* EmotiproTests */ = {
+			isa = PBXGroup;
+			children = (
+				BECBAF7516890AA900DDB78B /* EmotiproTests.h */,
+				BECBAF7616890AA900DDB78B /* EmotiproTests.m */,
+				BECBAF7016890AA900DDB78B /* Supporting Files */,
+			);
+			path = EmotiproTests;
+			sourceTree = "<group>";
+		};
+		BECBAF7016890AA900DDB78B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BECBAF7116890AA900DDB78B /* EmotiproTests-Info.plist */,
+				BECBAF7216890AA900DDB78B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BECBAF4716890AA900DDB78B /* Emotipro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BECBAF7A16890AA900DDB78B /* Build configuration list for PBXNativeTarget "Emotipro" */;
+			buildPhases = (
+				BECBAF4416890AA900DDB78B /* Sources */,
+				BECBAF4516890AA900DDB78B /* Frameworks */,
+				BECBAF4616890AA900DDB78B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Emotipro;
+			productName = Emotipro;
+			productReference = BECBAF4816890AA900DDB78B /* Emotipro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BECBAF6816890AA900DDB78B /* EmotiproTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BECBAF7D16890AA900DDB78B /* Build configuration list for PBXNativeTarget "EmotiproTests" */;
+			buildPhases = (
+				BECBAF6416890AA900DDB78B /* Sources */,
+				BECBAF6516890AA900DDB78B /* Frameworks */,
+				BECBAF6616890AA900DDB78B /* Resources */,
+				BECBAF6716890AA900DDB78B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BECBAF6E16890AA900DDB78B /* PBXTargetDependency */,
+			);
+			name = EmotiproTests;
+			productName = EmotiproTests;
+			productReference = BECBAF6916890AA900DDB78B /* EmotiproTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BECBAF3F16890AA900DDB78B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Will Farrell";
+			};
+			buildConfigurationList = BECBAF4216890AA900DDB78B /* Build configuration list for PBXProject "Emotipro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BECBAF3D16890AA900DDB78B;
+			productRefGroup = BECBAF4916890AA900DDB78B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BECBAF4716890AA900DDB78B /* Emotipro */,
+				BECBAF6816890AA900DDB78B /* EmotiproTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BECBAF4616890AA900DDB78B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BECBAF5716890AA900DDB78B /* InfoPlist.strings in Resources */,
+				BECBAF5D16890AA900DDB78B /* Credits.rtf in Resources */,
+				BECBAF6316890AA900DDB78B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BECBAF6616890AA900DDB78B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BECBAF7416890AA900DDB78B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BECBAF6716890AA900DDB78B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BECBAF4416890AA900DDB78B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BECBAF5916890AA900DDB78B /* main.m in Sources */,
+				BECBAF6016890AA900DDB78B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BECBAF6416890AA900DDB78B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BECBAF7716890AA900DDB78B /* EmotiproTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BECBAF6E16890AA900DDB78B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BECBAF4716890AA900DDB78B /* Emotipro */;
+			targetProxy = BECBAF6D16890AA900DDB78B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BECBAF5516890AA900DDB78B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BECBAF5616890AA900DDB78B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BECBAF5B16890AA900DDB78B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BECBAF5C16890AA900DDB78B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		BECBAF6116890AA900DDB78B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BECBAF6216890AA900DDB78B /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		BECBAF7216890AA900DDB78B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BECBAF7316890AA900DDB78B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BECBAF7816890AA900DDB78B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BECBAF7916890AA900DDB78B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BECBAF7B16890AA900DDB78B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Emotipro/Emotipro-Prefix.pch";
+				INFOPLIST_FILE = "Emotipro/Emotipro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BECBAF7C16890AA900DDB78B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Emotipro/Emotipro-Prefix.pch";
+				INFOPLIST_FILE = "Emotipro/Emotipro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BECBAF7E16890AA900DDB78B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Emotipro.app/Contents/MacOS/Emotipro";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Emotipro/Emotipro-Prefix.pch";
+				INFOPLIST_FILE = "EmotiproTests/EmotiproTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BECBAF7F16890AA900DDB78B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Emotipro.app/Contents/MacOS/Emotipro";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Emotipro/Emotipro-Prefix.pch";
+				INFOPLIST_FILE = "EmotiproTests/EmotiproTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BECBAF4216890AA900DDB78B /* Build configuration list for PBXProject "Emotipro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BECBAF7816890AA900DDB78B /* Debug */,
+				BECBAF7916890AA900DDB78B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BECBAF7A16890AA900DDB78B /* Build configuration list for PBXNativeTarget "Emotipro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BECBAF7B16890AA900DDB78B /* Debug */,
+				BECBAF7C16890AA900DDB78B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BECBAF7D16890AA900DDB78B /* Build configuration list for PBXNativeTarget "EmotiproTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BECBAF7E16890AA900DDB78B /* Debug */,
+				BECBAF7F16890AA900DDB78B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BECBAF3F16890AA900DDB78B /* Project object */;
+}
