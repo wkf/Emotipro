@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BECBA77B16C03CB9005E4C43 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BECBA77A16C03CB9005E4C43 /* icon.png */; };
 		BECBAF4D16890AA900DDB78B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BECBAF4C16890AA900DDB78B /* Cocoa.framework */; };
 		BECBAF5716890AA900DDB78B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BECBAF5516890AA900DDB78B /* InfoPlist.strings */; };
 		BECBAF5916890AA900DDB78B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BECBAF5816890AA900DDB78B /* main.m */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BECBA77A16C03CB9005E4C43 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		BECBAF4816890AA900DDB78B /* Emotipro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emotipro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BECBAF4C16890AA900DDB78B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		BECBAF4F16890AA900DDB78B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -72,6 +74,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BECBA77616C01D6E005E4C43 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BECBAF5E16890AA900DDB78B /* AppDelegate.h */,
+				BECBAF5F16890AA900DDB78B /* AppDelegate.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		BECBA77716C01DE1005E4C43 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BECBAF6116890AA900DDB78B /* MainMenu.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		BECBA77816C03BD1005E4C43 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BECBA77916C03BE2005E4C43 /* Icons */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BECBA77916C03BE2005E4C43 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				BECBA77A16C03CB9005E4C43 /* icon.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
 		BECBAF3D16890AA900DDB78B = {
 			isa = PBXGroup;
 			children = (
@@ -114,9 +149,9 @@
 		BECBAF5216890AA900DDB78B /* Emotipro */ = {
 			isa = PBXGroup;
 			children = (
-				BECBAF5E16890AA900DDB78B /* AppDelegate.h */,
-				BECBAF5F16890AA900DDB78B /* AppDelegate.m */,
-				BECBAF6116890AA900DDB78B /* MainMenu.xib */,
+				BECBA77816C03BD1005E4C43 /* Resources */,
+				BECBA77716C01DE1005E4C43 /* Views */,
+				BECBA77616C01D6E005E4C43 /* Controllers */,
 				BECBAF5316890AA900DDB78B /* Supporting Files */,
 			);
 			path = Emotipro;
@@ -227,6 +262,7 @@
 				BECBAF5716890AA900DDB78B /* InfoPlist.strings in Resources */,
 				BECBAF5D16890AA900DDB78B /* Credits.rtf in Resources */,
 				BECBAF6316890AA900DDB78B /* MainMenu.xib in Resources */,
+				BECBA77B16C03CB9005E4C43 /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +482,7 @@
 				BECBAF7C16890AA900DDB78B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BECBAF7D16890AA900DDB78B /* Build configuration list for PBXNativeTarget "EmotiproTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +491,7 @@
 				BECBAF7F16890AA900DDB78B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
